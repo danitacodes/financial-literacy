@@ -1,4 +1,4 @@
-import { Container, Row, Col} from "react-bootstrap"
+
 
 const Footer = () => {
     return (
@@ -11,11 +11,9 @@ const Footer = () => {
                 justifyContent: "center",
             }}
             >
-            <Container>
-                <Row>
-                    <Col className='text-center py-3'>Copyright &copy; Danita Codes</Col>
-                </Row>
-            </Container>
+           
+                    <h1 className='text-center py-3'>Copyright &copy; Danita Codes</h1>
+               
         </footer>
     )
 }
