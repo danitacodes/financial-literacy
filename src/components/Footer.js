@@ -12,7 +12,7 @@ const Footer = () => {
             }}
             >
            
-                    <h1 className='text-center py-3'>Copyright &copy; Danita Codes</h1>
+                    <h1 className='text-center py-3'>Copyright &copy;2022 Danita Codes</h1>
                
         </footer>
     )
