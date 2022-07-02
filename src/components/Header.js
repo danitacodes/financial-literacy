@@ -1,18 +1,37 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+
 
 function Header () {
     return (
-        <Navbar bg="primary" expand="lg" variant="dark">
-            <Container>
-                <Navbar.Brand href="/">Financial Literacy</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav.Link href="/vocab">Vocabulary</Nav.Link>
-                    <Nav.Link href="/sort">Sort</Nav.Link>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+       <div>
+        <div>
+            <nav>
+                <div>
+                    <h1>
+                        <a href="/">Financial Literacy</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Vocabulary</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Spend/Save</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+       </div>
     )
 }
 
 export default Header;
+

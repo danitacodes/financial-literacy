@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
 import "./../Home/Home.css"
 
 export default function Home() {
