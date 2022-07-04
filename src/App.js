@@ -1,18 +1,15 @@
-import { BrowserRouter } from 'react-router-dom'
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from "./screens/Home/Home";
-
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-      <Header />
-        <Home />
-      <Footer />
-      </BrowserRouter>
-    </div>
+     <div>
+        <Navbar />
+        <main style={{minHeight: "93vh"}}>
+
+        </main>
+        <Footer />
+     </div>
   );
 }
 
