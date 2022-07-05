@@ -21,14 +21,13 @@ module.exports = {
       Lora: ["Lora", "serif"],
       Lato: ["Lato", "sans-serif"]
     },
-    textColor: theme => theme('colors'),
-    textColor: {
-      'primary': '#BEE3DB',
-      'secondary': '#89B0AE'
-    },
     extend: {
       backgroundImage: {
         'hero-image': 'url("./assets/girlwithmoney.png")'
+      },
+      colors: {
+        seagreen: '#89B0AE',
+        lightgreen: '#BEE3DB'
       }      
     },
   },

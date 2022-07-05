@@ -1,15 +1,21 @@
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Vocabulary from "./components/Vocabulary";
+import SpendSave from "./components/SpendSave";
 
 function App() {
   return (
-     <div>
+     <>
         <Navbar />
-        <main style={{minHeight: "93vh"}}>
-
-        </main>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/vocab' element={<Vocabulary/>} />
+          <Route path='/save' element={<SpendSave/>} />
+        </Routes>
         <Footer />
-     </div>
+     </>
   );
 }
 
