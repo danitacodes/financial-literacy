@@ -2,8 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Vocabulary from "./components/Vocabulary";
+import Vocabulary from "./components/Vocabulary/Vocabulary";
 import SpendSave from "./components/SpendSave";
+import { minHeight } from "@mui/system";
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
           <Route path='/vocab' element={<Vocabulary/>} />
           <Route path='/save' element={<SpendSave/>} />
         </Routes>
-        <Footer />
      </>
   );
 }

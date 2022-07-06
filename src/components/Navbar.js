@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
 
             {/* Nav Links */}
-            <ul className="hidden md:flex gap-8 p-6 uppercase bg-white/10">
+            <ul className="hidden md:flex gap-8 px-4 uppercase">
                <li>
                     <a href='/'>Home</a>
                 </li>
