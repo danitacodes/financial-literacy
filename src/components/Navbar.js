@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
-import { MenuOutlined, Close } from '@mui/icons-material'
+import MenuOutlined from '@mui/icons-material/MenuOutlined';
+import Close from '@mui/icons-material/Close';
 
 const Navbar = () => {
 
