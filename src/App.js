@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Vocabulary from "./components/Vocabulary/Vocabulary";
-import SpendSave from "./components/SpendSave";
+import SpendSave from "./components/SpendSave/SpendSave";
 import { minHeight } from "@mui/system";
 
 function App() {
