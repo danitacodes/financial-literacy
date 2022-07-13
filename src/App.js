@@ -15,6 +15,7 @@ function App() {
           <Route path='/vocab' element={<Vocabulary/>} />
           <Route path='/save' element={<SpendSave/>} />
         </Routes>
+        <Footer />
      </>
   );
 }

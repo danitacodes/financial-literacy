@@ -2,17 +2,9 @@ import React from "react"
 
 const Footer = () => {
     return (
-        <footer
-            style= {{
-                width: "100%",
-                position: "relative",
-                bottom: 0,
-                display: "flex",
-                justifyContent: "center",
-            }}
-            >
+        <footer>
            
-                    <h1 className='text-center py-3'>Copyright &copy;2022 Danita Codes</h1>
+                    <h1 className='w-full text-seagreen bg-[#555B6E] flex justify-center py-2 px-4 items-center'>Copyright &copy;2022 Danita Codes</h1>
                
         </footer>
     )
