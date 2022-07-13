@@ -6,90 +6,90 @@ export const OPTIONS = {
 export const CHOICES = [
     {
         name: 'baglunch',
-        imgFile: 'baglunch.png'
+        photo: './assets/baglunch.png'
     },
     {
         name: 'bank',
-        imgFile: 'bank.png'
+        photo: './assets/bank.png'
     },
     {
         name: 'street coins',
-        imgFile: 'coinsfromstreet.png'
+        photo: './assets/coinsfromstreet.png'
     },
     {
         name: 'jar coins',
-        imgFile: 'coinsinjar.png'
+        photo: './assets/coinsinjar.png'
     },
     {
         name: 'goals',
-        imgFile: 'goals.png'
+        photo: './assets/goals.png'
     },
     {
         name: 'groceries',
-        imgFile: 'groceries.png'
+        photo: './assets/groceries.png'
     },
     {
         name: 'gumball',
-        imgFile: 'gumball.png'
+        photo: './assets/gumball.png'
     },
     {
         name: 'headphones',
-        imgFile: 'headphones.png'
+        photo: './assets/headphones.png'
     },
     {
         name: 'hidemoney',
-        imgFile: 'hidemoney.png'
+        photo: './assets/hidemoney.png'
     },
     {
         name: 'holdmoney',
-        imgFile: 'holdmoney.png'
+        photo: './assets/holdmoney.png'
     },
     {
         name: 'icecream',
-        imgFile: 'icecream.png'
+        photo: './assets/icecream.png'
     },
     {
         name: 'mall',
-        imgFile: 'mall.png'
+        photo: './assets/mall.png'
     },
     {
         name: 'movie',
-        imgFile: 'movie.png'
+        photo: './assets/movie.png'
     },
     {
         name: 'nocandy',
-        imgFile: 'nocandy.png'
+        photo: './assets/nocandy.png'
     },
     {
         name: 'parents',
-        imgFile: 'parents.png'
+        photo: './assets/parents.png'
     },
     {
         name: 'piggybank',
-        imgFile: 'piggybank.png'
+        photo: './assets/piggybank.png'
     },
     {
         name: 'pizza',
-        imgFile: 'pizza.png'
+        photo: './assets/pizza.png'
     },
     {
         name: 'popcorn',
-        imgFile: 'popcorn.png'
+        photo: './assets/popcorn.png'
     },
     {
         name: 'restaurant',
-        imgFile: 'restaurant.png'
+        photo: './assets/restaurant.png'
     },
     {
         name: 'safe',
-        imgFile: 'safe.png'
+        photo: './assets/safe.png'
     },
     {
         name: 'shoes',
-        imgFile: 'shoes.png'
+        photo: './assets/shoes.png'
     },
     {
         name: 'sweater',
-        imgFile: 'sweater.png'
+        photo: './assets/sweater.png'
     },
 ]
