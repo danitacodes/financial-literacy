@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {DragDropContext} from 'react-beautiful-dnd'
 import { CHOICES, OPTIONS } from './spendSaveData';
 import { shuffle, GAME_STATE } from './utils'
 
