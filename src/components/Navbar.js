@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import { MenuOutlined, Close } from '@material-ui/icons'
 
 
@@ -18,13 +18,13 @@ const Navbar = () => {
             {/* Nav Links */}
             <ul className="hidden md:flex gap-8 px-4 uppercase">
                <li>
-                    <a href='/'>Home</a>
+                    <Link to='/'>Home</Link>
                 </li>
                <li>
-                    <a href='/vocab'>Vocabulary</a>
+                    <Link to='/vocab'>Vocabulary</Link>
                 </li>
                <li>
-                    <a href='/spend'>Spend or Save</a>
+                    <Link to='/spend/start'>Spend or Save</Link>
                 </li>
             </ul>
     
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <a href='/vocab'>Vocabulary</a>
             </li>
             <li>
-                <a href='/spend'>Spend or Save</a>
+                <a href='/spend/game'>Spend or Save</a>
             </li>
         </ul>
     
