@@ -20,7 +20,7 @@ function App() {
           <Route path='/spend/start' element={<Start/>} />
           <Route path='/spend/lost' element={<Lost/>} />
         </Routes>
-        <div className="image-cache">
+        {/* <div className="image-cache">
           {spendSaveData.choices && 
             spendSaveData.map((choice, cdx) => {
               if(choice.backgroundImage)
@@ -28,7 +28,7 @@ function App() {
               return ""
             })
           }
-        </div>
+        </div> */}
         <Footer />
      </>
   );

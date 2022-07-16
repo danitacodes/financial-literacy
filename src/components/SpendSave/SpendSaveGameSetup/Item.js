@@ -15,7 +15,7 @@ const Item = ({ item, checkAndUpdatePoints, fallingTime }) => {
         if (
             latest.y > window.innerHeight - window.innerHeight * 0.25 && finished === false
         ) {
-            checkAndUpdatePoints(currentX, item.choice);
+            checkAndUpdatePoints(currentX, item.bucket);
             setFinished(true);
         }
     }
@@ -37,10 +37,10 @@ const Item = ({ item, checkAndUpdatePoints, fallingTime }) => {
             originY: 0.5
         }}
         onUpdate={onUpdate}
-        drag='x'
+        drag="x"
         dragMomentum={false}
         dragConstraints={{ left: 0, right: window.innerWidth - 25 }}
-        inital={{ x: startX, y: 0 }}
+        initial={{ x: startX, y: 0 }}
         animate={{ y: "100vh" }}
         className={"item " + item.slug}
         transition={{ duration: fallingTime, ease: "linear" }}

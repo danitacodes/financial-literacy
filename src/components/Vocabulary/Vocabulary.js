@@ -34,7 +34,7 @@ const Vocabulary = () => {
     });
     const sorted = all.sort(() => Math.random() - 0.5);
     setChoices(sorted);
-  }, [data.pairs]);
+  }, []);
 
   const matching = (valueA, valueB) =>
     data.pairs.some(

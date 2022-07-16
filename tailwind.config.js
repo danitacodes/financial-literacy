@@ -28,7 +28,7 @@ module.exports = {
       colors: {
         seagreen: '#89B0AE',
         lightgreen: '#BEE3DB'
-      }      
+      },      
     },
   },
   plugins: [],

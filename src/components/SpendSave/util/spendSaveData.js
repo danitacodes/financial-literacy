@@ -1,7 +1,7 @@
 const spendSaveData = {
     buckets: [
-        { name: "SPEND", slug: 'spend' },
-        { name: "SAVE", slug: 'save' }
+        { name: "SPEND", slug: 'spend', backgroundImage: "https://i.ibb.co/gSxkbBv/spendinglabel.png" },
+        { name: "SAVE", slug: 'save', backgroundImage: "https://i.ibb.co/C57WWrK/savinglabel.png" }
     ],
     items: [
         {
