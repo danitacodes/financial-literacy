@@ -30,12 +30,12 @@ const Game = () => {
   };
 
   const checkAndUpdatePoints = (x, bucket) => {
-    const bucketIndex = buckets.findIndex((b) => b.slug === bucket);
-    const bucketSize = spendSaveConfig.bucketSize
-    const maxX = (bucketIndex - 1) * bucketSize;
+    const bucketIndex = buckets.findIndex(b => b.slug === bucket);
+    const bucketSize = window.innerWidth / buckets.length;
+    const maxX = (bucketIndex + 1) * bucketSize;
     const minX = bucketIndex * bucketSize;
 
-    setFallingTime((prevTime) => prevTime * 0.95);
+    setFallingTime(prevTime => prevTime * 0.95);
     if (x <= maxX && x >= minX) {
       setPoints(points + 1);
       showSuccess();

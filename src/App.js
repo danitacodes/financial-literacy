@@ -6,20 +6,25 @@ import Vocabulary from "./components/Vocabulary/Vocabulary";
 import SpendSaveGame from "./components/SpendSave/SpendSaveGameSetup/SpendSaveGame";
 import Start from './components/SpendSave/SpendSaveGameSetup/Start';
 import Lost from './components/SpendSave/SpendSaveGameSetup/Lost';
-import { spendSaveData } from "./components/SpendSave/util";
+
 
 
 function App() {
   return (
      <>
+        <Routes>
+        <Route path='/spend/game' element={<SpendSaveGame/>} />
+        </Routes>
+        <>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/vocab' element={<Vocabulary/>} />
-          <Route path='/spend/game' element={<SpendSaveGame/>} />
+          
           <Route path='/spend/start' element={<Start/>} />
           <Route path='/spend/lost' element={<Lost/>} />
         </Routes>
+        </>
         {/* <div className="image-cache">
           {spendSaveData.choices && 
             spendSaveData.map((choice, cdx) => {
