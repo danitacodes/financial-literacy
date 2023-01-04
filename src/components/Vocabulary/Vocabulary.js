@@ -105,7 +105,7 @@ const Vocabulary = () => {
                   className={
                     voice1 && voice1.name === voice.name ? "selected" : ""
                   }
-                  className="bg-seagreen hover:bg-[#FFD6BA] text-white font-bold py-2 px-4 rounded"
+                  className="bg-seagreen hover:bg-[#FFD6BA] text-[#5b5b5b] font-bold py-2 px-4 rounded"
                 >
                   {voice.name}
                 </button>
@@ -131,8 +131,8 @@ const Vocabulary = () => {
                   }
                   className={
                     !!selected[choice.value]
-                      ? "bg-seagreen text-white opacity-50 cursor-not-allowed py-2 px-4 rounded"
-                      : "bg-seagreen hover:bg-[#FFD6BA] text-white font-bold py-2 px-4 rounded"
+                      ? "bg-seagreen text-[#5b5b5b] opacity-50 cursor-not-allowed py-2 px-4 rounded"
+                      : "bg-seagreen hover:bg-[#FFD6BA] text-[#5b5b5b] font-bold py-2 px-4 rounded"
                   }
                 >
                   {choice.value}
@@ -146,7 +146,7 @@ const Vocabulary = () => {
       <div className="flex justify-center">
       <button
           onClick={() => reset()}
-          className="bg-[#FFD6BA] hover:bg-seagreen text-white font-bold py-2 px-4 mb-2 rounded"
+          className="bg-[#FFD6BA] hover:bg-seagreen text-[#5b5b5b] font-bold py-2 px-4 mb-2 rounded"
         >
           Reset
         </button>

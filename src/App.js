@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Vocabulary from "./components/Vocabulary/Vocabulary";
-
-
+import Start from "./components/SpendSave/SpendSaveGameSetup/Start";
+import SpendSaveGame from "./components/SpendSave/SpendSaveGame";
 
 
 function App() {
@@ -18,7 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/vocab' element={<Vocabulary/>} />
-          
+          <Route path='/spend/start' element={<Start/>} />
+          <Route path='/spend/game' element={<SpendSaveGame/>} />          
       
         </Routes>
         </>

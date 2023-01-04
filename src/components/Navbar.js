@@ -11,12 +11,12 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] text-seagreen bg-[#555B6E] flex justify-between px-4 items-center">
-        <div className="text-2xl font-bold text-center">
+        <div className="text-3xl font-bold text-center">
             <h1 className="font-Lora"><a href='/'>FinanciaLiteracy</a></h1>
         </div>
 
             {/* Nav Links */}
-            <ul className="hidden md:flex gap-8 px-4 uppercase">
+            <ul className="hidden md:flex gap-8 px-4 uppercase text-xl">
                <li>
                     <Link to='/'>Home</Link>
                 </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <a href='/vocab'>Vocabulary</a>
             </li>
             <li>
-                <a href='/spend/game'>Spend or Save</a>
+                <a href='/spend/start'>Spend or Save</a>
             </li>
         </ul>
     

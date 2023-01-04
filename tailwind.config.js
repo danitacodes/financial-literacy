@@ -26,7 +26,7 @@ module.exports = {
         'hero-image': 'url("./assets/girlwithmoney.png")'
       },
       colors: {
-        seagreen: '#89B0AE',
+        seagreen: '#C3D7D6',
         lightgreen: '#BEE3DB'
       },      
     },
